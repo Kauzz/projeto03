@@ -20,6 +20,7 @@
 
 .estrutura .introducao .titulo {
     font-family: 'Young Serif', serif;;
+    padding-bottom: 15px;
 }
 
 .estrutura .tempo {
@@ -51,4 +52,55 @@
 .estrutura .instrucao ol {
     padding-bottom: 30px;
     padding-left: 22px;
+    list-style-type: decimal;
+    counter-reset: item;
+}
+
+.estrutura .instrucao ol li {
+    padding-left: 10px;
+}
+
+.estrutura .instrucao ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.estrutura .instrucao .passos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.estrutura .nutricao p {
+    padding-bottom: 23px;
+}
+
+.estrutura .nutricao .lista {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 90px;
+}
+
+.estrutura .nutricao .lista ul {
+    list-style: none;
+}
+
+.estrutura .nutricao .lista .suplimento li {
+    padding: 8px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.estrutura .nutricao .lista .valor li {
+    padding: 8px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    background-color: hsl(14, 45%, 36%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
 }
