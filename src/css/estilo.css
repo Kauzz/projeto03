@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+
+.estrutura {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.estrutura img {
+    border-radius: 7px;
+}
+
+.estrutura .introducao {
+    padding: 30px 5px;
+}
+
+.estrutura .introducao .titulo {
+    font-family: 'Young Serif', serif;;
+}
+
+.estrutura .tempo {
+    padding: 5px 0px 30px 20px;
+}
+
+.estrutura .tempo h3 {
+    padding-bottom: 10px;
+    color: hsl(327, 55%, 43%);
+}
+
+.estrutura .tempo ul {
+    padding-left: 20px;
+}
+
+.estrutura .tempo ul li {
+    padding: 5px;
+}
+
+.estrutura .ingredientes ul {
+    padding-bottom: 30px;
+    padding-left: 22px;
+}
+
+.estrutura .ingredientes  ul li {
+    padding: 5px;
+}
+
+.estrutura .instrucao ol {
+    padding-bottom: 30px;
+    padding-left: 22px;
+}
